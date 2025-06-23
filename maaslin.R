@@ -7,7 +7,6 @@ library(Maaslin2)
 library(dplyr)
 library(tibble)
 
-# 读取命令行参数或使用默认路径
 args <- commandArgs(trailingOnly = TRUE)
 raw_dir <- ifelse(length(args) >= 1, args[1], "strain_split")
 #raw_dir <- ifelse(length(args) >= 1, args[1], "species_split")
