@@ -16,7 +16,7 @@ out_dir <- ifelse(length(args) >= 2, args[2], "maaslin_result_strain")
 #out_dir <- ifelse(length(args) >= 2, args[2], "maaslin_result_species")
 #out_dir <- ifelse(length(args) >= 2, args[2], "maaslin_result_genus")
 
-countries <- c("austria", "china", "france", "india", "italy", "japan", "usa")
+countries <- c("austria", "china", "india", "france", "italy", "usa", "japan")
 n_splits <- 100
 
 run_maaslin <- function(otu, meta, out_path, include_fml = FALSE) {
