@@ -17,7 +17,7 @@ result_dir <- "alpha_diversity"
 dir.create(result_dir, recursive = TRUE, showWarnings = FALSE)
 
 covariates_list <- list(
-  after_fml_adj = c("Disease", "Age", "Gender", "BMI", "fml"),
+  after_fml_adj = c("Disease", "Age", "Gender", "BMI", "FML"),
   before_fml_adj = c("Disease", "Age", "Gender", "BMI")
 )
 
